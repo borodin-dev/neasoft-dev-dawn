@@ -13,6 +13,7 @@
                     {% render 'icon-arrow' %}
                   {%- endif -%}
                 </p>
+                <p class="announcement-bar__submessage">{{ block.settings.subtext | capitalize }}</p>
               </div>
           {%- if block.settings.link != blank -%}
             </a>
@@ -36,6 +37,12 @@
           "type": "text",
           "id": "text",
           "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "subtext",
+          "default": "wish you have a great surfing",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
         {
