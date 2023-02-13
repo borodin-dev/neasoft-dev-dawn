@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
-            "text_alignment": "center",
+            "text_alignment": "right",
             "color_scheme": "background-1",
             "link": ""
           }
@@ -17,7 +17,9 @@
       },
       "block_order": [
         "announcement-bar-0"
-      ]
+      ],
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
