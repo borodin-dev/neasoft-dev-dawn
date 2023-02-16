@@ -14,6 +14,9 @@
                   {%- endif -%}
                 </p>
                 <p class="announcement-bar__submessage">{{ block.settings.subtext | capitalize }}</p>
+                <p>The currency of this store is {{ shop.currency | upcase }}</p>
+                <p>The domain is {{ shop.domain | camelcase }}</p>
+                <p>The email is {{ shop.email }}</p>
               </div>
           {%- if block.settings.link != blank -%}
             </a>
